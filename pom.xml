@@ -4,7 +4,7 @@
 
     <groupId>io.github.1tchy.shaded.com.h2database</groupId>
     <artifactId>h2</artifactId>
-    <version>1.4.200.2</version>
+    <version>1.4.200.3-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -205,7 +205,7 @@
         <connection>scm:git:git://github.com/1tchy/shaded-h2database.git</connection>
         <developerConnection>scm:git:ssh://github.com/1tchy/shaded-h2database.git</developerConnection>
         <url>http://github.com/1tchy/shaded-h2database/tree/master</url>
-        <tag>h2-1.4.200.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
