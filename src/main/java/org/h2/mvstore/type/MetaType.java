@@ -68,7 +68,7 @@ public final class MetaType<D> extends BasicDataType<DataType<?>> {
         int len = DataUtils.readVarInt(buff);
         String className = DataUtils.readString(buff, len);
         // !!!!!!!!!!!!!!!!!  The following line is the only difference to the original code  !!!!!!!!!!!!!!!!!
-        className = className.replaceFirst("^org\\.h2\\.", "io.github._1tchy.shaded.org.h24.");
+        className = className.replaceFirst("^org\\.h2\\.", "io.github._1tchy.shaded.org.h25.");
         try {
             Object o = cache.get(className);
             if (o != null) {
