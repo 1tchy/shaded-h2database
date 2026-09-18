@@ -13,7 +13,10 @@ making it possible to include both versions at the same time under a different p
 | Module Name  | com.h2database             | io.github._1tchy.shaded.com.h2database                                                                     |
 | Version      | 1.4.(\d+) (e.g. `1.4.200`) | [1.4.$1.➰](https://mvnrepository.com/artifact/io.github.1tchy.shaded.com.h2database/h2) (e.g. `1.4.200.1`) |
 
-> 💡 **Tip:** For migration from version `2.1.214`, checkout the [feature branch for 2.1.214](https://github.com/1tchy/shaded-h2database/tree/h2-version-2.1.x).
+> 💡 **Tip:** Shaded artifacts for the other H2 versions live on their own branches:
+> [`2.1.*`](https://github.com/1tchy/shaded-h2database/tree/h2-version-2.1.x) ·
+> [`2.4.*`](https://github.com/1tchy/shaded-h2database/tree/h2-version-2.4.x) ·
+> [`2.5.*`](https://github.com/1tchy/shaded-h2database/tree/h2-version-2.5.x)
 
 ## License
 
