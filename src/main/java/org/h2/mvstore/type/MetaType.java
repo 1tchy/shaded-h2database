@@ -1,5 +1,5 @@
 /*
- * Copyright 2004-2022 H2 Group. Multiple-Licensed under the MPL 2.0,
+ * Copyright 2004-2025 H2 Group. Multiple-Licensed under the MPL 2.0,
  * and the EPL 1.0 (https://h2database.com/html/license.html).
  * Initial Developer: H2 Group
  */
@@ -68,7 +68,7 @@ public final class MetaType<D> extends BasicDataType<DataType<?>> {
         int len = DataUtils.readVarInt(buff);
         String className = DataUtils.readString(buff, len);
         // !!!!!!!!!!!!!!!!!  The following line is the only difference to the original code  !!!!!!!!!!!!!!!!!
-        className = className.replaceFirst("^org\\.h2\\.", "io.github._1tchy.shaded.org.h21.");
+        className = className.replaceFirst("^org\\.h2\\.", "io.github._1tchy.shaded.org.h24.");
         try {
             Object o = cache.get(className);
             if (o != null) {
